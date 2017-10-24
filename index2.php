@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>IFPE-Pós - Jaboãtão dos Guararapes</title>
 
     <!-- Bootstrap -->
     <link href="bootstrap3.7/css/bootstrap.min.css" rel="stylesheet">
@@ -66,7 +66,7 @@
   margin-right: 15px;
 }
 #navtop{
-  font-size: 10px !important;
+  font-size: 15px !important;
 }
 .fa {
     padding-right: 10px;
@@ -74,11 +74,11 @@
     color: #9a9a9a !important;  
 }
 #logo a img{
-    /*margin-top: -25px;*/
+    margin-top: 25px;
     margin-bottom: 30px;
 }
 #main-navigation{
-    font-size: 12px !important;
+    font-size: 15px !important;
     font-weight: bold;
 }
 #main-navigation .nav>li>a{
@@ -177,8 +177,9 @@
           
           .alive{
     width: 100%;
-    height: 200px;
+    height: 275px;
     background-color: #F5F5F5;
+    font-weight: bold;
     
 }
 
@@ -214,9 +215,10 @@
                         <i class="fa fa-shopping-bag" aria-hidden="true"></i>MYBAG</a>
                 </li>
 
-                <li><button type="btn btn-default navbar-btn">ENG</button></li>
+                <li><button type="btn btn-default navbar-btn"><i class="fa fa-sign-in" aria-hidden="true"></i>
+                    ENTRAR</button></li>
 
-                <li><button type="btn btn-default navbar-btn">USD</button></li>
+                <li><button type="btn btn-default navbar-btn">INSCRIÇÃO</button></li>
               </ul>
 
           </div>
@@ -226,7 +228,9 @@
         
       <div class="alive">
         <div class="text-center" id="logo">
-              <a href="#" ><img src="ifpe.png" alt="logo" height="150px" width="250px"/></a>
+              <a href="#" ><img src="ifpe.png" alt="logo" height="150px" width="250px"/></a><br>
+                IFPE-Pós <br>
+                Campus - Jaboatão dos Guararapes 
         </div>
           </div>
            
