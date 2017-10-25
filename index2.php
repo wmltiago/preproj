@@ -51,10 +51,10 @@
                         <a href="#">
                         <i class="fa fa-search" aria-hidden="true"></i>SEARCH</a>
                     </li>
-                    <li>
+               <!--     <li>
                         <a href="#">
-                        <i class="fa fa-shopping-bag" aria-hidden="true"></i>MYBAG</a>
-                    </li>
+                        <i class="fa fa-shopping-bag" aria-hidden="true"></i>My</a>
+                    </li> -->
 
                     <li><button type="btn btn-default navbar-btn"><i class="fa fa-sign-in" aria-hidden="true"></i>
                     ENTRAR</button></li>
@@ -101,52 +101,80 @@
     <!--header navbar END -->
 
     <div class="container-absoluto">
+        
+        <!--teste-->
+        
+ 
 
-        <!--container info-->
-        <div class="container container-info">
-            <div class="row">
-                <div class="col-sm-6 col-md-4">
-                    <div class="thumbnail">
-                        <img src="imagens/pos-graduacao.png" alt="...">
-                        <div class="caption">
-                            <h3>Propesq divulga edital para concessão de bolsas a docentes</h3>
-                            <p>Foco são docentes com dedicação exclusiva ou jornada de 40 horas, vinculados ao doutorado.</p>
-                            <p><a href="#" class="btn btn-default" role="button">Mais...</a></p>
-                        </div>
-                    </div>
-                </div>
-
-
-
-                <div class="col-sm-6 col-md-4">
-                    <div class="thumbnail">
-                        <img src="imagens/vestibular.png" alt="...">
-                        <div class="caption">
-                            <h3>IFPE divulga edital com 4.076 vagas para o Vestibular 2018.1 </h3>
-                            <p>Inscrições seguem até 05 de novembro e podem ser feitas de forma online</p>
-                            <p><a href="#" class="btn btn-default" role="button">Mais...</a></p>
-                        </div>
-                    </div>
-                </div>
-
-
-
-                <div class="col-sm-6 col-md-4">
-                    <div class="thumbnail">
-                        <img src="imagens/prof.png" alt="...">
-                        <div class="caption">
-                            <h3>Professor do Campus Recife é finalista do Jabuti</h3>
-                            <p>Professor José Eduardo de Oliveira concorre na categoria Engenharias, Tecnologias e Informática</p>
-                            <p> <a href="#" class="btn btn-default" role="button">Mais...</a></p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
+<div id="masthead">  
+  <div class="container">
+      <div class="row">
+        <div class="col-md-12 ">
+         <hr class="head">
+          <h1 class="text-center">IFPE-Pós
+            <p class="lead">Pós-Graduação do Instituto Federal de Pernambuco</p>
+          </h1><br>
+          <hr class="head">
         </div>
-        <!--END container info-->
-    </div>
+       
+      </div> 
+  </div><!--/container-->
+</div><!--/masthead-->
 
+<!--PAINEL DE NOTICIAS-->
+<div class="container">
+	<div class="row">
+		<h2 class="text-center">Notícias</h2>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <div class="box">
+                        <div class="box-content">
+                           <div class="thumbnail">
+                                <img src="imagens/prof.png" alt="...">       
+                            </div>
+                            <h1 class="tag-title">Heading</h1>
+                            <hr />
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pharetra quam sollicitudin nibh aliquam finibus. Etiam efficitur felis vel imperdiet varius. Maecenas bibendum elementum molestie. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris cursus finibus semper. Fusce molestie tincidunt leo vel varius. Nam scelerisque nulla feugiat leo consequat, id dignissim sem tincidunt. Proin elit mauris, hendrerit in varius sed, facilisis sit amet neque.</p>
+                            <br />
+                            <a href="ppc.html" class="btn btn-block btn-default">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="box">
+                        <div class="box-content">
+                           <div class="thumbnail">
+                                <img src="imagens/vestibular.png" alt="...">       
+                            </div>
+                            <h1 class="tag-title">Heading</h1>
+                            <hr />
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pharetra quam sollicitudin nibh aliquam finibus. Etiam efficitur felis vel imperdiet varius. Maecenas .</p>
+                            <br />
+                            <a href="ppc.html" class="btn btn-block btn-primary">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="box">
+                        <div class="box-content">
+                               <div class="thumbnail">
+                                <img src="imagens/pos-graduacao.png" alt="...">       
+                            </div>
+                            <h1 class="tag-title">Heading</h1>
+                            <hr />
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pharetra quam sollicitudin nibh aliquam finibus. Etiam efficitur felis vel imperdiet varius. Maecenas bibendum elementum molestie. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris cursus finibus semper. Fusce molestie tincidunt leo vel varius. Nam scelerisque nulla feugiat leo consequat, id dignissim sem tincidunt. Proin elit mauris, hendrerit in varius sed, facilisis sit amet neque.</p>
+                            <br />
+                            <a href="ppc.html" class="btn btn-block btn-primary">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>           
+        </div>
+	
+</div>
+<!--END PAINEL NOTICIAS-->
+        </div>
+ <!--END container info-->
     <!-- FOOTER -->
     <div class="">
         <section style="height:80px;"></section>

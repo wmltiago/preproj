@@ -193,6 +193,70 @@
 
 /*BODY FOR ME END */
 
+/*CONFIG CONTEUDO*/
+
+/*
+A Bootstrap 3.1 affix sidebar template
+from http://bootply.com
+
+This CSS code should follow the 'bootstrap.css'
+in your HTML file.
+
+license: MIT
+author: bootply.com
+*/
+
+#masthead { 
+ min-height:250px;
+}
+
+#masthead h1 {
+ font-size: 30px;
+ line-height: 1;
+ padding-top:20px;
+}
+
+#masthead .well {
+ margin-top:8%;
+}
+
+@media screen and (min-width: 768px) {
+  #masthead h1 {
+    font-size: 50px;
+  }
+}
+
+.navbar-bright {
+ background-color:#111155;
+ color:#fff;
+}
+
+.affix-top,.affix{
+ position: static;
+}
+
+@media (min-width: 979px) {
+  #sidebar.affix-top {
+    position: static;
+      margin-top:30px;
+  	width:228px;
+  }
+  
+  #sidebar.affix {
+    position: fixed;
+    top:70px;
+    width:228px;
+  }
+}
+
+#sidebar li.active {
+  border:0 #eee solid;
+  border-right-width:5px;
+}
+
+
+/*END CONFIG CONTEUDO*/
+
 /* FOOTER */
 
 .footer-bs {
@@ -256,9 +320,52 @@
     margin-top: 50px;
 }
 
-
-
-
 /* END FOOTER */
 
+/*PAINEL NOTICIAS*/
 
+.box {
+  background:#fff;
+  transition:all 0.2s ease;
+  border:2px dashed #dadada;
+  margin-top: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-clip: padding-box;
+  padding:0 20px 20px 20px;
+  min-height:340px;
+}
+
+.box:hover {
+  border:2px solid #525C7A;
+}
+
+.box span.box-title {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.box .box-content {
+  padding: 16px;
+  border-radius: 0 0 2px 2px;
+  background-clip: padding-box;
+  box-sizing: border-box;
+}
+.box .box-content p {
+  color:#515c66;
+  text-transform:none;
+}
+
+/*END PAINEL*/
+
+/*CONFIG HR HEAD*/
+
+hr.head{
+      color: #034811;
+      background-color: #034811;
+      height: 5px;
+        width: 350px;
+    }
+/*END CONFIG HR HEAD*/
