@@ -119,6 +119,10 @@
   width: 100%;
 }
 }
+
+#main-navigation{
+    background-color: #19882c;
+}
 /* MEDIA QUERIES FOR TOP NAV END*/
 /* HEADER END*/
 
