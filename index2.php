@@ -35,14 +35,15 @@
                 <!--header navbar top left -->
                 <ul class="nav navbar-nav" id="nav-left">
                     <li><a href="http://www.ifpe.edu.br/acessibilidade" target="blank">
-                  <i class="fa fa-user" aria-hidden="true"></i>ACESSIBILIDADE</a>
+                  <i class="fa fa-wheelchair" aria-hidden="true"></i>Acessibilidade</a>
+                    </li>
+                    <li><a href="http://ifpe.trabalhando.com/" target="_blank">
+                  <i class="fa fa-briefcase" aria-hidden="true"></i>Portal de estágios e empregos</a>
                     </li>
                     <li><a href="#">
-                  <i class="fa fa-check-square-o" aria-hidden="true"></i>CHECK OUT</a>
+                  <i class="fa fa-graduation-cap" aria-hidden="true"></i>Portal do servidor</a>
                     </li>
-                    <li><a href="#">
-                  <i class="fa fa-heart-o" aria-hidden="true"></i>MY WISHLIST</a>
-                    </li>
+
                 </ul>
                 <!--header navbar top right -->
                 <ul class="nav navbar-nav nav-pills" id="nav-right">
@@ -68,7 +69,7 @@
 
     <div class="alive">
         <div class="text-center" id="logo">
-            <a href="#"><img src="imagens/ifpe.png" alt="logo" height="150px" width="250px"/></a><br> IFPE-Pós 2018
+            <a href="http://www.ifpe.edu.br/" target="_blank"><img src="imagens/ifpe.png" alt="logo" height="150px" width="250px"/></a><br> IFPE-Pós 2018
             <br> Campus - Jaboatão dos Guararapes
         </div>
     </div>
