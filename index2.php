@@ -31,7 +31,7 @@
     <div class="container">
 
         <nav id="navtop">
-            <div class="container-fluid">
+            <div class="container-fluid menu-superior">
                 <!--header navbar top left -->
                 <ul class="nav navbar-nav" id="nav-left">
                     <li><a href="http://www.ifpe.edu.br/acessibilidade" target="blank">
@@ -132,7 +132,7 @@
                            <div class="thumbnail">
                                 <img src="imagens/prof.png" alt="...">       
                             </div>
-                            <h1 class="tag-title">Heading</h1>
+                            <h1 class="tag-title">Homenagem</h1>
                             <hr />
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pharetra quam sollicitudin nibh aliquam finibus. Etiam efficitur felis vel imperdiet varius. Maecenas bibendum elementum molestie. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris cursus finibus semper. Fusce molestie tincidunt leo vel varius. Nam scelerisque nulla feugiat leo consequat, id dignissim sem tincidunt. Proin elit mauris, hendrerit in varius sed, facilisis sit amet neque.</p>
                             <br />
@@ -146,7 +146,7 @@
                            <div class="thumbnail">
                                 <img src="imagens/vestibular.png" alt="...">       
                             </div>
-                            <h1 class="tag-title">Heading</h1>
+                            <h1 class="tag-title">Vestibular</h1>
                             <hr />
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pharetra quam sollicitudin nibh aliquam finibus. Etiam efficitur felis vel imperdiet varius. Maecenas .</p>
                             <br />
@@ -160,7 +160,7 @@
                                <div class="thumbnail">
                                 <img src="imagens/pos-graduacao.png" alt="...">       
                             </div>
-                            <h1 class="tag-title">Heading</h1>
+                            <h1 class="tag-title">Pós-Graduação</h1>
                             <hr />
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pharetra quam sollicitudin nibh aliquam finibus. Etiam efficitur felis vel imperdiet varius. Maecenas bibendum elementum molestie. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris cursus finibus semper. Fusce molestie tincidunt leo vel varius. Nam scelerisque nulla feugiat leo consequat, id dignissim sem tincidunt. Proin elit mauris, hendrerit in varius sed, facilisis sit amet neque.</p>
                             <br />

@@ -207,13 +207,16 @@ author: bootply.com
 */
 
 #masthead { 
- min-height:250px;
+ min-height: 250px;
+    padding-top: 50px;
+    
 }
 
 #masthead h1 {
  font-size: 30px;
  line-height: 1;
- padding-top:20px;
+ padding-top:15px;
+
 }
 
 #masthead .well {
@@ -367,5 +370,13 @@ hr.head{
       background-color: #034811;
       height: 5px;
         width: 350px;
+        
     }
 /*END CONFIG HR HEAD*/
+
+/*CONFIGRAÇÃO MENU SUP*/
+
+.menu-superior{
+    height: 50px;
+    background-color: #fff;
+}
