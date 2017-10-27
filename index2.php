@@ -15,6 +15,9 @@
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="assets/font-awesome-4.7/css/font-awesome.min.css">
 
+    <!--Impor font google-->
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+
 
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -51,7 +54,7 @@
                         <a href="#">
                         <i class="fa fa-search" aria-hidden="true"></i>SEARCH</a>
                     </li>
-               <!--     <li>
+                    <!--     <li>
                         <a href="#">
                         <i class="fa fa-shopping-bag" aria-hidden="true"></i>My</a>
                     </li> -->
@@ -101,80 +104,93 @@
     <!--header navbar END -->
 
     <div class="container-absoluto">
-        
-        <!--teste-->
-        
- 
 
-<div id="masthead">  
-  <div class="container">
-      <div class="row">
-        <div class="col-md-12 ">
-         <hr class="head">
-          <h1 class="text-center">IFPE-Pós
-            <p class="lead">Pós-Graduação do Instituto Federal de Pernambuco</p>
-          </h1><br>
-          <hr class="head">
-        </div>
-       
-      </div> 
-  </div><!--/container-->
-</div><!--/masthead-->
 
-<!--PAINEL DE NOTICIAS-->
-<div class="container">
-	<div class="row">
-		<h2 class="text-center">Notícias</h2>
-            <div class="row">
-                <div class="col-md-4 text-center">
-                    <div class="box">
-                        <div class="box-content">
-                           <div class="thumbnail">
-                                <img src="imagens/prof.png" alt="...">       
-                            </div>
-                            <h1 class="tag-title">Homenagem</h1>
-                            <hr />
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pharetra quam sollicitudin nibh aliquam finibus. Etiam efficitur felis vel imperdiet varius. Maecenas bibendum elementum molestie. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris cursus finibus semper. Fusce molestie tincidunt leo vel varius. Nam scelerisque nulla feugiat leo consequat, id dignissim sem tincidunt. Proin elit mauris, hendrerit in varius sed, facilisis sit amet neque.</p>
-                            <br />
-                            <a href="ppc.html" class="btn btn-block btn-default">Learn more</a>
-                        </div>
+        <!--
+        <div id="masthead">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 ">
+                        <hr class="head">
+                        <h1 class="text-center">IFPE-Pós
+                            <p class="lead">Pós-Graduação do Instituto Federal de Pernambuco</p>
+                        </h1><br>
+                        <hr class="head">
                     </div>
-                </div>
-                <div class="col-md-4 text-center">
-                    <div class="box">
-                        <div class="box-content">
-                           <div class="thumbnail">
-                                <img src="imagens/vestibular.png" alt="...">       
-                            </div>
-                            <h1 class="tag-title">Vestibular</h1>
-                            <hr />
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pharetra quam sollicitudin nibh aliquam finibus. Etiam efficitur felis vel imperdiet varius. Maecenas .</p>
-                            <br />
-                            <a href="ppc.html" class="btn btn-block btn-primary">Learn more</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 text-center">
-                    <div class="box">
-                        <div class="box-content">
-                               <div class="thumbnail">
-                                <img src="imagens/pos-graduacao.png" alt="...">       
-                            </div>
-                            <h1 class="tag-title">Pós-Graduação</h1>
-                            <hr />
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pharetra quam sollicitudin nibh aliquam finibus. Etiam efficitur felis vel imperdiet varius. Maecenas bibendum elementum molestie. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris cursus finibus semper. Fusce molestie tincidunt leo vel varius. Nam scelerisque nulla feugiat leo consequat, id dignissim sem tincidunt. Proin elit mauris, hendrerit in varius sed, facilisis sit amet neque.</p>
-                            <br />
-                            <a href="ppc.html" class="btn btn-block btn-primary">Learn more</a>
-                        </div>
-                    </div>
+
                 </div>
             </div>           
+        </div> -->
+        <!--/masthead-->
+
+        <!-- INSCREVA-SE-->
+        <div class="container">
+            <div class="inscricao">
+                <div class="row">
+                    <div class="col-md-12 ">
+                        <div class="text-center">
+                            <a href="http://www.ifpe.edu.br/" target="_blank"><img src="imagens/inscri%C3%A7%C3%B5es-abertas.png" alt="logo" height="250px" width="500px"/></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-	
-</div>
-<!--END PAINEL NOTICIAS-->
+        <!-- END INSCREVA-SE-->
+
+        <!--PAINEL DE NOTICIAS-->
+        <div class="container">
+            <div class="row">
+                <h2 class="text-center">Notícias</h2>
+                <div class="row">
+                    <div class="col-md-4 text-center">
+                        <div class="box">
+                            <div class="box-content">
+                                <div class="thumbnail">
+                                    <img src="imagens/prof.png" alt="...">
+                                </div>
+                                <h1 class="tag-title">Homenagem</h1>
+                                <hr />
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pharetra quam sollicitudin nibh aliquam finibus. Etiam efficitur felis vel imperdiet varius. Maecenas .</p>
+                                <br />
+                                <a href="ppc.html" class="btn btn-block btn-default">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <div class="box">
+                            <div class="box-content">
+                                <div class="thumbnail">
+                                    <img src="imagens/vestibular.png" alt="...">
+                                </div>
+                                <h1 class="tag-title">Vestibular</h1>
+                                <hr />
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pharetra quam sollicitudin nibh aliquam finibus. Etiam efficitur felis vel imperdiet varius. Maecenas .</p>
+                                <br />
+                                <a href="ppc.html" class="btn btn-block btn-primary">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <div class="box">
+                            <div class="box-content">
+                                <div class="thumbnail">
+                                    <img src="imagens/pos-graduacao.png" alt="...">
+                                </div>
+                                <h1 class="tag-title">Pós-Graduação</h1>
+                                <hr />
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pharetra quam sollicitudin nibh aliquam finibus. Etiam efficitur felis vel imperdiet varius. Maecenas .</p>
+                                <br />
+                                <a href="ppc.html" class="btn btn-block btn-primary">Learn more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
- <!--END container info-->
+        <!--END PAINEL NOTICIAS-->
+    </div>
+    <!--END container info-->
     <!-- FOOTER -->
     <div class="">
         <section style="height:80px;"></section>

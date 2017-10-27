@@ -380,3 +380,21 @@ hr.head{
     height: 50px;
     background-color: #fff;
 }
+
+.inscricao{
+    width: 100%;
+    height: 250px;
+    /*font-family: 'Permanent Marker', cursive;*/
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.inscricao p{
+    font-size: 25px;
+}
+
+.inscricao .text-center{
+    color: #fff;
+}
+
+
