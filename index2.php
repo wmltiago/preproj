@@ -37,13 +37,13 @@
             <div class="container-fluid menu-superior">
                 <!--header navbar top left -->
                 <ul class="nav navbar-nav" id="nav-left">
-                    <li><a href="http://www.ifpe.edu.br/acessibilidade" target="blank">
+                    <li><a class="link-menu-sup" href="http://www.ifpe.edu.br/acessibilidade" target="blank">
                   <i class="fa fa-wheelchair" aria-hidden="true"></i>Acessibilidade</a>
                     </li>
-                    <li><a href="http://ifpe.trabalhando.com/" target="_blank">
+                    <li><a class="link-menu-sup" href="http://ifpe.trabalhando.com/" target="_blank">
                   <i class="fa fa-briefcase" aria-hidden="true"></i>Portal de estágios e empregos</a>
                     </li>
-                    <li><a href="#">
+                    <li><a class="link-menu-sup" href="#">
                   <i class="fa fa-graduation-cap" aria-hidden="true"></i>Portal do servidor</a>
                     </li>
 
@@ -51,7 +51,7 @@
                 <!--header navbar top right -->
                 <ul class="nav navbar-nav nav-pills" id="nav-right">
                     <li>
-                        <a href="#">
+                        <a class="link-menu-sup" href="#">
                         <i class="fa fa-search" aria-hidden="true"></i>SEARCH</a>
                     </li>
                     <!--     <li>
@@ -62,7 +62,7 @@
                     <li><button type="btn btn-default navbar-btn"><i class="fa fa-sign-in" aria-hidden="true"></i>
                     ENTRAR</button></li>
 
-                    <li><button type="btn btn-default navbar-btn">INSCRIÇÃO</button></li>
+                    <li><a href="assets/pages/pre-inscricao.php"><button type="btn btn-default navbar-btn">INSCRIÇÃO</button></a></li>
                 </ul>
 
             </div>
@@ -149,7 +149,7 @@
                 <div class="row">
                     <div class="col-md-12 ">
                         <div class="text-center">
-                            <a href="http://www.ifpe.edu.br/" target="_blank"><img src="imagens/inscri%C3%A7%C3%B5es-abertas.png" alt="logo" height="250px" width="500px"/></a>
+                            <a href="assets/pages/pre-inscricao.php" target="_blank"><img src="imagens/inscri%C3%A7%C3%B5es-abertas.png" alt="logo" height="250px" width="500px"/></a>
                         </div>
                     </div>
                 </div>
@@ -172,7 +172,7 @@
                                 <hr />
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pharetra quam sollicitudin nibh aliquam finibus. Etiam efficitur felis vel imperdiet varius. Maecenas .</p>
                                 <br />
-                                <a href="ppc.html" class="btn btn-block btn-default">Learn more</a>
+                                <a href="ppc.html" class="btn btn-block btn-default">Mais...</a>
                             </div>
                         </div>
                     </div>
@@ -186,7 +186,7 @@
                                 <hr />
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pharetra quam sollicitudin nibh aliquam finibus. Etiam efficitur felis vel imperdiet varius. Maecenas .</p>
                                 <br />
-                                <a href="ppc.html" class="btn btn-block btn-primary">Learn more</a>
+                                <a href="ppc.html" class="btn btn-block btn-default">Mais...</a>
                             </div>
                         </div>
                     </div>
@@ -200,7 +200,7 @@
                                 <hr />
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pharetra quam sollicitudin nibh aliquam finibus. Etiam efficitur felis vel imperdiet varius. Maecenas .</p>
                                 <br />
-                                <a href="ppc.html" class="btn btn-block btn-primary">Learn more</a>
+                                <a href="ppc.html" class="btn btn-block btn-default">Mais...</a>
                             </div>
                         </div>
                     </div>
