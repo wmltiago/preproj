@@ -90,15 +90,35 @@
     <!--  MAIN NAVIGATION -->
     <div class="collapse navbar-collapse" id="main-navigation">
         <div class="container">
-
+            <div class="dropdown">
             <ul class="nav nav-justified nav-pills">
+                
                 <li><a href="#" class="active"><span class="glyphicon glyphicon-home"></span> HOME</a></li>
-                <li><a href="#"><span class="glyphicon glyphicon-file"></span> EDITAIS</a></li>
+               <li><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-file"></span> EDITAIS<span class="caret"></span></a>
+                   <ul class="dropdown-menu">
+                      <li><a href="#">Edital-1</a></li>
+                      <li><a href="#">Edital-2</a></li>
+                       <li class="dropdown-submenu"><a href="#">Edital-3</a>
+                           <ul class="dropdown-menu">
+                              <li><a href="#">Edital-3.1</a></li>
+                              <li class="dropdown-submenu"><a href="#">Edital-3.2</a>
+                                  <ul class="dropdown-menu">
+                                      <li><a href="#">Edital-3.1</a></li>
+                                      <li><a href="#">Edital-3.1</a></li>
+                                  </ul>
+                              </li>
+                               
+                           </ul>
+                       </li>
+                      <li><a href="#">Edital-4</a></li>         
+                   </ul>
+               </li>
                 <li><a href="#"><span class="glyphicon glyphicon-envelope"></span> CONTATO</a></li>
                 <li><a href="#"><span class="glyphicon glyphicon-bullhorn"></span> OUVIDORIA</a></li>
                 <li><a href="#"><span class="glyphicon glyphicon-map-marker"></span> LOCALIZAÇÃO</a></li>
 
             </ul>
+            </div>
         </div>
     </div>
     <!--header navbar END -->
