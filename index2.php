@@ -92,7 +92,7 @@
         <div class="container">
 
             <ul class="nav nav-justified nav-pills">
-                <li><a href="#"><span class="glyphicon glyphicon-home"></span> HOME</a></li>
+                <li><a href="#" class="active"><span class="glyphicon glyphicon-home"></span> HOME</a></li>
                 <li><a href="#"><span class="glyphicon glyphicon-file"></span> EDITAIS</a></li>
                 <li><a href="#"><span class="glyphicon glyphicon-envelope"></span> CONTATO</a></li>
                 <li><a href="#"><span class="glyphicon glyphicon-bullhorn"></span> OUVIDORIA</a></li>

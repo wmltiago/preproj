@@ -5,11 +5,14 @@
 #nav-right{
   float:right;
 }
+
+
 .nav>li>a:focus, .nav>li>a:hover {
     text-decoration: none;
-    background-color: #fff;
+    background-color: #fff; /*cor de qndo selecionar a opção do menu*/
     color: #0A5517 !important; /* cor das opções dos menus qndo hover */
 }
+
 
 .nav>li>a:hover, .nav>li>a:hover>span {
     text-decoration: none;
@@ -17,15 +20,21 @@
     color: #0A5517 !important; 
 }
 
+.nav>li>a:focus, .nav>li>a:focus>span{
+	color: #0A5517;
+}
+
+
+
 .nav-pills>li.active>a{
     color: #0A5517 !important; /* qndo tiver a class active */
     font-weight: bold;
-    background-color: #fff;
+    background-color: #0A5517;
 }
 
 
 .nav-pills>li.active>a:hover{
-  background-color: #fff;
+  background-color: #0A5517;
 }
 
 
@@ -34,7 +43,15 @@
 }
 
 .nav>li>a{
-	color: #000000;
+	color: #fff; /*cor das opções do menu*/
+}
+
+.nav>li>a>span:focus{
+    color: #0A5517;    /*MEXENDO AUQI*/
+}
+
+.nav>li>a, .nav>li>a>span{
+	color: #fff; /*cor dos icones do menu sub e opções*/
 }
 
 .navbar-toggle {
@@ -61,6 +78,10 @@
 #navtop{
   font-size: 15px !important;
 }
+
+#navtop .nav>li>a{
+	color: #000000;
+}
 .fa {
     padding-right: 10px;
     font-size: 14px;
@@ -86,6 +107,8 @@
   #nav-left{
     text-align: center;
   }
+    
+   
   #nav-left:after{
     display: block;
     content: "";
